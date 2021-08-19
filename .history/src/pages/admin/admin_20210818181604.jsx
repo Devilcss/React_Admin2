@@ -1,0 +1,18 @@
+import React,{Component} from 'react'
+import './login.less'
+import logo from './images/logo.png'
+/*
+路由组件 
+ */
+export default class Admin extends Component {
+    render(){
+        return (
+            <div className="admin">
+                <header className="login-header">
+                    <img src={logo} alt="logo"></img>
+                </header>
+                <section className="login-content"></section>
+            </div>
+        )
+    }
+}
